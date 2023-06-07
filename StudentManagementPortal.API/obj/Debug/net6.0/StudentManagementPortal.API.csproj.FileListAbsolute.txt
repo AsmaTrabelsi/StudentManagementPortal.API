@@ -5,6 +5,8 @@ C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPorta
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\StudentManagementPortal.API.runtimeconfig.json
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\StudentManagementPortal.API.dll
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\StudentManagementPortal.API.pdb
+C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -61,5 +63,3 @@ C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPorta
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\obj\Debug\net6.0\StudentManagementPortal.API.pdb
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\obj\Debug\net6.0\StudentManagementPortal.API.genruntimeconfig.cache
 C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\obj\Debug\net6.0\ref\StudentManagementPortal.API.dll
-C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\hj137AG\source\repos\StudentManagementPortal.API\StudentManagementPortal.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
