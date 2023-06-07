@@ -14,6 +14,7 @@ builder.Services.AddDbContext<StudentAdminContext>(options => options.UseSqlServ
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 builder.Services.AddScoped<IStudentRepository,StudentRepository>();
+builder.Services.AddScoped<IImageRepository, LocalStorageRepository>();
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddCors((options =>
 {

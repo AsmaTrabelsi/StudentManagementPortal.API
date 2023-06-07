@@ -12,12 +12,15 @@ namespace StudentManagementPortal.API.Controllers
     {
 
         private readonly IStudentRepository studentRepository;
+        private readonly IImageRepository imageRepository;
         private readonly IMapper mapper;
 
-        public StudentController(IStudentRepository studentRepository,IMapper mapper)
+        public StudentController(IStudentRepository studentRepository,IMapper mapper,
+            IImageRepository imageRepository)
         {
             this.studentRepository = studentRepository;
             this.mapper = mapper;
+            this.imageRepository = imageRepository;
         }
         [HttpGet]
         [Route("[controller]")]
@@ -77,7 +80,7 @@ namespace StudentManagementPortal.API.Controllers
             return CreatedAtAction(nameof(GetStudentByIdAsync), new { studentId = student.Id },
                 mapper.Map<Models.Student>(student));
         }
-        /*
+        
         [HttpPost]
         [Route("[controller]/{studentId:guid}/upload-image")]
         public async Task<IActionResult> UploadImage([FromRoute] Guid studentId, IFormFile profileImage)
@@ -114,7 +117,7 @@ namespace StudentManagementPortal.API.Controllers
             }
 
             return NotFound();
-        }*/
+        }
     }
 }
 
